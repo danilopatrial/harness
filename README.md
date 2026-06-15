@@ -5,6 +5,7 @@ Guardrails for running `claude --dangerously-skip-permissions`
 ```bash
 git clone https://github.com/danilopatrial/harness.git [DIR]
 cd [DIR]
+rm README.md LICENSE
 chmod +x .claude/hooks/yolo-guard.sh
 ```
 

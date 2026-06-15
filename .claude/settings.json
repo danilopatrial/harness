@@ -42,20 +42,20 @@
       "Write(/etc/**)",
       "Write(/usr/**)",
 
-      "Bash(sudo *)",
       "Bash(git push --force*)",
       "Bash(git push -f *)",
       "Bash(git reset --hard*)",
       "Bash(git clean -f*)",
-      "Bash(npm publish*)",
-      "Bash(pnpm publish*)",
-      "Bash(yarn publish*)",
-      "Bash(supabase db reset*)",
-      "Bash(pacman *)",
-      "Bash(yay *)"
+      "Bash(supabase db reset*)"
     ],
 
     "ask": [
+      "Bash(pnpm publish*)",
+      "Bash(yay *)",
+      "Bash(pacman *)",
+      "Bash(yarn publish*)",
+      "Bash(npm publish*)",
+      "Bash(sudo *)",
       "Bash(git push *)",
       "Bash(gh pr merge *)",
       "Bash(vercel *)"
